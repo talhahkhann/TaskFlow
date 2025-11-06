@@ -1,0 +1,655 @@
+2025-11-06 21:22:02.923 +05:00 [ERR] Failed executing DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 21:22:03.292 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 21:22:03.323 +05:00 [INF] Applying migration '20251106162155_InitialCreate'.
+2025-11-06 21:46:37.725 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-06 21:46:37.959 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 21:46:37.972 +05:00 [INF] Hosting environment: Development
+2025-11-06 21:46:37.978 +05:00 [INF] Content root path: /home/haris/Desktop/TaskFlow/TaskFlow
+2025-11-06 21:46:45.666 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-06 21:46:45.747 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-06 21:46:45.804 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 139.0072ms
+2025-11-06 21:46:45.843 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-06 21:46:55.336 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/api/auth/register - null null
+2025-11-06 21:46:55.353 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-06 21:46:55.356 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-06 21:46:55.358 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/api/auth/register - 405 0 null 22.3281ms
+2025-11-06 21:47:57.782 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-06 21:47:57.792 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 9.9185ms
+2025-11-06 21:47:57.794 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-06 21:48:01.434 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger - null null
+2025-11-06 21:48:01.435 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger - 301 0 null 1.4318ms
+2025-11-06 21:48:01.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-06 21:48:01.593 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 154.01ms
+2025-11-06 21:48:01.599 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - null null
+2025-11-06 21:48:01.599 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.css - null null
+2025-11-06 21:48:01.601 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-06 21:48:01.599 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.js - null null
+2025-11-06 21:48:01.603 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.js - 200 null application/javascript;charset=utf-8 3.3779ms
+2025-11-06 21:48:01.603 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - null null
+2025-11-06 21:48:01.612 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.css - 200 152 text/css 13.0515ms
+2025-11-06 21:48:01.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-06 21:48:01.647 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 13440 application/javascript; charset=utf-8 8.9669ms
+2025-11-06 21:48:01.676 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - 200 23647 text/css 76.9454ms
+2025-11-06 21:48:01.685 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 85.6433ms
+2025-11-06 21:48:01.742 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 138.3582ms
+2025-11-06 21:48:02.215 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-06 21:48:02.252 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - null null
+2025-11-06 21:48:02.255 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - 200 628 image/png 3.0506ms
+2025-11-06 21:48:02.418 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.0899ms
+2025-11-06 21:48:54.285 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/register - application/json 92
+2025-11-06 21:48:54.286 +05:00 [INF] Executing endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:48:54.324 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterDto) on controller ProjectManagementAPI.Controllers.AuthController (TaskFlow).
+2025-11-06 21:48:55.996 +05:00 [INF] Executed DbCommand (82ms) [Parameters=[@__registerDto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__registerDto_Email_0)
+2025-11-06 21:48:56.251 +05:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "LastLoginAt", "PasswordHash", "Role", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2025-11-06 21:48:56.274 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TaskFlow.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-06 21:48:56.293 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 21:48:56.322 +05:00 [INF] Executed action ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow) in 1994.4003ms
+2025-11-06 21:48:56.323 +05:00 [INF] Executed endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:48:56.336 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/register - 400 null application/json; charset=utf-8 2051.4457ms
+2025-11-06 21:51:51.124 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-06 21:51:51.125 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.1113ms
+2025-11-06 21:51:51.147 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-06 21:51:51.151 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 13440 application/javascript; charset=utf-8 3.6141ms
+2025-11-06 21:51:51.786 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-06 21:51:51.799 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.6337ms
+2025-11-06 21:52:30.849 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/register - application/json 84
+2025-11-06 21:52:30.850 +05:00 [INF] Executing endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:52:30.862 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterDto) on controller ProjectManagementAPI.Controllers.AuthController (TaskFlow).
+2025-11-06 21:52:30.917 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:52:30.937 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__registerDto_Email_0='talha@example.com'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__registerDto_Email_0)
+2025-11-06 21:52:30.979 +05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='2025-11-06T16:52:30.9389431Z' (DbType = DateTime), @p1='talha@example.com' (Nullable = false), @p2=NULL (DbType = DateTime), @p3='ZTjJJzqCrz4rNiNDRlEn+VfLdunrr+77e3kDFgA/NWo=' (Nullable = false), @p4='User' (Nullable = false), @p5='talha' (Nullable = false)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "LastLoginAt", "PasswordHash", "Role", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2025-11-06 21:52:30.989 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TaskFlow.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-06 21:52:30.999 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 21:52:31.001 +05:00 [INF] Executed action ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow) in 139.4925ms
+2025-11-06 21:52:31.002 +05:00 [INF] Executed endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:52:31.004 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/register - 400 null application/json; charset=utf-8 154.58ms
+2025-11-06 21:52:50.008 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/register - application/json 84
+2025-11-06 21:52:50.008 +05:00 [INF] Executing endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:52:50.009 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterDto) on controller ProjectManagementAPI.Controllers.AuthController (TaskFlow).
+2025-11-06 21:52:50.046 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__registerDto_Email_0='talha@example.com'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__registerDto_Email_0)
+2025-11-06 21:52:50.049 +05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='2025-11-06T16:52:50.0474956Z' (DbType = DateTime), @p1='talha@example.com' (Nullable = false), @p2=NULL (DbType = DateTime), @p3='ZTjJJzqCrz4rNiNDRlEn+VfLdunrr+77e3kDFgA/NWo=' (Nullable = false), @p4='User' (Nullable = false), @p5='talha' (Nullable = false)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "LastLoginAt", "PasswordHash", "Role", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2025-11-06 21:52:50.052 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TaskFlow.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-06 21:52:50.061 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 21:52:50.062 +05:00 [INF] Executed action ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow) in 52.2396ms
+2025-11-06 21:52:50.063 +05:00 [INF] Executed endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:52:50.064 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/register - 400 null application/json; charset=utf-8 56.2194ms
+2025-11-06 21:54:13.550 +05:00 [INF] Application is shutting down...
+2025-11-06 21:54:31.959 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:55:56.055 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-06 21:55:56.206 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 21:55:56.207 +05:00 [INF] Hosting environment: Development
+2025-11-06 21:55:56.213 +05:00 [INF] Content root path: /home/haris/Desktop/TaskFlow/TaskFlow
+2025-11-06 21:56:02.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-06 21:56:02.110 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-06 21:56:02.121 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 101.788ms
+2025-11-06 21:56:02.169 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-06 21:56:07.214 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-06 21:56:07.219 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 13440 application/javascript; charset=utf-8 6.35ms
+2025-11-06 21:56:07.836 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-06 21:56:07.989 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.7157ms
+2025-11-06 21:56:26.702 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/register - application/json 83
+2025-11-06 21:56:26.707 +05:00 [INF] Executing endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:56:26.745 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterDto) on controller ProjectManagementAPI.Controllers.AuthController (TaskFlow).
+2025-11-06 21:56:27.590 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:56:28.337 +05:00 [INF] Executed DbCommand (60ms) [Parameters=[@__registerDto_Email_0='talha@example.com'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__registerDto_Email_0)
+2025-11-06 21:56:28.574 +05:00 [ERR] Failed executing DbCommand (17ms) [Parameters=[@p0='2025-11-06T16:56:28.3740415Z' (DbType = DateTime), @p1='talha@example.com' (Nullable = false), @p2=NULL (DbType = DateTime), @p3='w8JzY6SeuiV2LFmez4hGBg6lNAGv1bzyHp9ONSu5xuQ=' (Nullable = false), @p4='User' (Nullable = false), @p5='talha' (Nullable = false)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "LastLoginAt", "PasswordHash", "Role", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2025-11-06 21:56:28.605 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TaskFlow.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CreatedAt" of relation "Users" does not exist
+
+POSITION: 22
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CreatedAt" of relation "Users" does not exist
+    Position: 22
+    File: parse_target.c
+    Line: 1065
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-06 21:56:28.626 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-06 21:56:28.657 +05:00 [INF] Executed action ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow) in 1907.4026ms
+2025-11-06 21:56:28.658 +05:00 [INF] Executed endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 21:56:28.670 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/register - 400 null application/json; charset=utf-8 1968.7989ms
+2025-11-06 21:57:20.889 +05:00 [INF] Application is shutting down...
+2025-11-06 21:57:29.700 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:57:30.076 +05:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 21:57:30.366 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-11-06 21:57:30.375 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 21:57:30.377 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-11-06 21:57:30.378 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 21:57:30.391 +05:00 [INF] Applying migration '20251106165433_InitialCreate'.
+2025-11-06 21:57:30.486 +05:00 [ERR] Failed executing DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Projects" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "StartDate" timestamp with time zone NOT NULL,
+    "EndDate" timestamp with time zone NOT NULL,
+    "Status" text NOT NULL,
+    CONSTRAINT "PK_Projects" PRIMARY KEY ("Id")
+);
+2025-11-06 21:58:36.719 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:58:56.514 +05:00 [INF] Executed DbCommand (299ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP DATABASE "TaskFlow" WITH (FORCE);
+2025-11-06 21:59:02.207 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 21:59:02.510 +05:00 [ERR] An error occurred using the connection to database 'TaskFlow' on server 'tcp://localhost:5432'.
+2025-11-06 21:59:03.005 +05:00 [INF] Executed DbCommand (269ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "TaskFlow";
+2025-11-06 21:59:03.106 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-11-06 21:59:03.116 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 21:59:03.120 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-11-06 21:59:03.125 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 21:59:03.143 +05:00 [INF] Applying migration '20251106165433_InitialCreate'.
+2025-11-06 21:59:03.179 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Projects" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "StartDate" timestamp with time zone NOT NULL,
+    "EndDate" timestamp with time zone NOT NULL,
+    "Status" text NOT NULL,
+    CONSTRAINT "PK_Projects" PRIMARY KEY ("Id")
+);
+2025-11-06 21:59:03.181 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Username" character varying(50) NOT NULL,
+    "Email" character varying(100) NOT NULL,
+    "PasswordHash" text NOT NULL,
+    "Role" character varying(20) NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "LastLoginAt" timestamp with time zone,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+2025-11-06 21:59:03.183 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProjectUser" (
+    "MembersId" integer NOT NULL,
+    "ProjectsId" integer NOT NULL,
+    CONSTRAINT "PK_ProjectUser" PRIMARY KEY ("MembersId", "ProjectsId"),
+    CONSTRAINT "FK_ProjectUser_Projects_ProjectsId" FOREIGN KEY ("ProjectsId") REFERENCES "Projects" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_ProjectUser_Users_MembersId" FOREIGN KEY ("MembersId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+2025-11-06 21:59:03.186 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Tasks" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Title" text NOT NULL,
+    "Description" text NOT NULL,
+    "Priority" text NOT NULL,
+    "Status" text NOT NULL,
+    "DueDate" timestamp with time zone NOT NULL,
+    "ProjectId" integer NOT NULL,
+    "AssignedUserId" integer,
+    CONSTRAINT "PK_Tasks" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Tasks_Projects_ProjectId" FOREIGN KEY ("ProjectId") REFERENCES "Projects" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Tasks_Users_AssignedUserId" FOREIGN KEY ("AssignedUserId") REFERENCES "Users" ("Id")
+);
+2025-11-06 21:59:03.190 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Comments" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Content" text NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "TaskItemId" integer NOT NULL,
+    "UserId" integer NOT NULL,
+    CONSTRAINT "PK_Comments" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Comments_Tasks_TaskItemId" FOREIGN KEY ("TaskItemId") REFERENCES "Tasks" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Comments_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+2025-11-06 21:59:03.191 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Comments_TaskItemId" ON "Comments" ("TaskItemId");
+2025-11-06 21:59:03.194 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Comments_UserId" ON "Comments" ("UserId");
+2025-11-06 21:59:03.195 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_ProjectUser_ProjectsId" ON "ProjectUser" ("ProjectsId");
+2025-11-06 21:59:03.196 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Tasks_AssignedUserId" ON "Tasks" ("AssignedUserId");
+2025-11-06 21:59:03.198 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Tasks_ProjectId" ON "Tasks" ("ProjectId");
+2025-11-06 21:59:03.199 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251106165433_InitialCreate', '9.0.10');
+2025-11-06 21:59:42.449 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:01:51.560 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:01:52.018 +05:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 22:01:52.276 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-11-06 22:01:52.284 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 22:01:52.286 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-11-06 22:01:52.287 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 22:01:52.297 +05:00 [INF] Applying migration '20251106165943_InitialCreate'.
+2025-11-06 22:01:52.337 +05:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Projects" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "StartDate" timestamp with time zone NOT NULL,
+    "EndDate" timestamp with time zone NOT NULL,
+    "Status" text NOT NULL,
+    CONSTRAINT "PK_Projects" PRIMARY KEY ("Id")
+);
+2025-11-06 22:02:34.881 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:02:38.138 +05:00 [INF] Executed DbCommand (301ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP DATABASE "TaskFlow" WITH (FORCE);
+2025-11-06 22:02:49.925 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:03:00.154 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:03:11.507 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:03:11.809 +05:00 [ERR] An error occurred using the connection to database 'TaskFlow' on server 'tcp://localhost:5432'.
+2025-11-06 22:03:12.271 +05:00 [INF] Executed DbCommand (237ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "TaskFlow";
+2025-11-06 22:03:12.373 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-11-06 22:03:12.385 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-06 22:03:12.388 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-11-06 22:03:12.393 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-06 22:03:12.411 +05:00 [INF] Applying migration '20251106170250_InitialCreate'.
+2025-11-06 22:03:12.447 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Projects" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "StartDate" timestamp with time zone NOT NULL,
+    "EndDate" timestamp with time zone NOT NULL,
+    "Status" text NOT NULL,
+    CONSTRAINT "PK_Projects" PRIMARY KEY ("Id")
+);
+2025-11-06 22:03:12.450 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Username" character varying(50) NOT NULL,
+    "Email" character varying(100) NOT NULL,
+    "PasswordHash" text NOT NULL,
+    "Role" character varying(20) NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "LastLoginAt" timestamp with time zone,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+2025-11-06 22:03:12.453 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProjectUser" (
+    "MembersId" integer NOT NULL,
+    "ProjectsId" integer NOT NULL,
+    CONSTRAINT "PK_ProjectUser" PRIMARY KEY ("MembersId", "ProjectsId"),
+    CONSTRAINT "FK_ProjectUser_Projects_ProjectsId" FOREIGN KEY ("ProjectsId") REFERENCES "Projects" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_ProjectUser_Users_MembersId" FOREIGN KEY ("MembersId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+2025-11-06 22:03:12.456 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Tasks" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Title" text NOT NULL,
+    "Description" text NOT NULL,
+    "Priority" text NOT NULL,
+    "Status" text NOT NULL,
+    "DueDate" timestamp with time zone NOT NULL,
+    "ProjectId" integer NOT NULL,
+    "AssignedUserId" integer,
+    CONSTRAINT "PK_Tasks" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Tasks_Projects_ProjectId" FOREIGN KEY ("ProjectId") REFERENCES "Projects" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Tasks_Users_AssignedUserId" FOREIGN KEY ("AssignedUserId") REFERENCES "Users" ("Id")
+);
+2025-11-06 22:03:12.458 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Comments" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Content" text NOT NULL,
+    "CreatedAt" timestamp with time zone NOT NULL,
+    "TaskItemId" integer NOT NULL,
+    "UserId" integer NOT NULL,
+    CONSTRAINT "PK_Comments" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Comments_Tasks_TaskItemId" FOREIGN KEY ("TaskItemId") REFERENCES "Tasks" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Comments_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+2025-11-06 22:03:12.459 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Comments_TaskItemId" ON "Comments" ("TaskItemId");
+2025-11-06 22:03:12.461 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Comments_UserId" ON "Comments" ("UserId");
+2025-11-06 22:03:12.462 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_ProjectUser_ProjectsId" ON "ProjectUser" ("ProjectsId");
+2025-11-06 22:03:12.463 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Tasks_AssignedUserId" ON "Tasks" ("AssignedUserId");
+2025-11-06 22:03:12.465 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Tasks_ProjectId" ON "Tasks" ("ProjectId");
+2025-11-06 22:03:12.467 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251106170250_InitialCreate', '9.0.10');
+2025-11-06 22:04:12.352 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-06 22:04:12.464 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 22:04:12.466 +05:00 [INF] Hosting environment: Development
+2025-11-06 22:04:12.467 +05:00 [INF] Content root path: /home/haris/Desktop/TaskFlow/TaskFlow
+2025-11-06 22:04:40.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-06 22:04:41.069 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-06 22:04:41.076 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 125.5114ms
+2025-11-06 22:04:41.118 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-06 22:04:47.667 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-06 22:04:47.671 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 13440 application/javascript; charset=utf-8 4.7021ms
+2025-11-06 22:04:47.990 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-06 22:04:48.137 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.0351ms
+2025-11-06 22:05:06.063 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/register - application/json 83
+2025-11-06 22:05:06.070 +05:00 [INF] Executing endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 22:05:06.106 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterDto) on controller ProjectManagementAPI.Controllers.AuthController (TaskFlow).
+2025-11-06 22:05:07.037 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-06 22:05:07.863 +05:00 [INF] Executed DbCommand (69ms) [Parameters=[@__registerDto_Email_0='talha@example.com'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS u
+    WHERE u."Email" = @__registerDto_Email_0)
+2025-11-06 22:05:08.145 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='2025-11-06T17:05:07.9028590Z' (DbType = DateTime), @p1='talha@example.com' (Nullable = false), @p2=NULL (DbType = DateTime), @p3='Rw5ouaO4vIFsQMFSqKW52FqaPMmFrhlOS5Ou+JHZPyU=' (Nullable = false), @p4='User' (Nullable = false), @p5='talha' (Nullable = false)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "LastLoginAt", "PasswordHash", "Role", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2025-11-06 22:05:08.188 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], TaskFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-06 22:05:08.232 +05:00 [INF] Executed action ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow) in 2122.3301ms
+2025-11-06 22:05:08.233 +05:00 [INF] Executed endpoint 'ProjectManagementAPI.Controllers.AuthController.Register (TaskFlow)'
+2025-11-06 22:05:08.248 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/register - 200 null application/json; charset=utf-8 2184.2928ms
+2025-11-06 22:12:07.723 +05:00 [INF] Application is shutting down...
