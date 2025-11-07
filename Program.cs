@@ -1,40 +1,50 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
-using TaskFlow.Data;
 using Serilog;
+using TaskFlow.Data;
 using TaskFlow.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-//Serilog
+
+// Serilog
 builder.Host.UseSerilog((context, config) =>
     config.ReadFrom.Configuration(context.Configuration));
 builder.Configuration.AddJsonFile("serilog.json", optional: true);
 
-// Add DbContext
+// Database
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
     .EnableSensitiveDataLogging()
     .LogTo(Console.WriteLine, LogLevel.Error));
+
+// Listen on port 8080 (Render expects this)
 builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
-// Add Controllers
+// Controllers
 builder.Services.AddControllers();
 
-// Add Swagger
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//DI Services
+// Dependency Injection
 builder.Services.AddScoped<IAuthService, AuthService>();
-
 
 var app = builder.Build();
 
-//  Configure Middleware
-if (app.Environment.IsDevelopment())
+// Allow Render proxy headers (important)
+app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
+
+// Always enable Swagger (not just in Development)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TaskFlow API V1");
+    c.RoutePrefix = "swagger";
+});
 
 app.UseHttpsRedirection();
 
