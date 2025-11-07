@@ -229,3 +229,4 @@ SELECT EXISTS (
 2025-11-07 21:03:50.658 +05:00 [INF] Executed action TaskFlow.Controllers.AuthController.Register (TaskFlow) in 398.628ms
 2025-11-07 21:03:50.659 +05:00 [INF] Executed endpoint 'TaskFlow.Controllers.AuthController.Register (TaskFlow)'
 2025-11-07 21:03:50.660 +05:00 [INF] Request finished HTTP/1.1 POST http://0.0.0.0:8080/api/Auth/register - 409 null application/json; charset=utf-8 404.449ms
+2025-11-07 21:05:10.735 +05:00 [INF] Application is shutting down...
