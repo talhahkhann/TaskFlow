@@ -1,10 +1,9 @@
-using TaskFlow.DTOs;
-using TaskFlow.Models;
+using TaskFlow.DTOs.Auth;
 
 namespace TaskFlow.Services
 {
     public interface IAuthService
     {
-        Task<User> RegisterAsync(RegisterDto registerDto);
+        Task<RegisterResponse> RegisterAsync(RegisterRequest request);
     }
 }

@@ -1,49 +1,73 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TaskFlow.Data;
-using TaskFlow.DTOs;
+using TaskFlow.DTOs.Auth;
 using TaskFlow.Models;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace TaskFlow.Services
 {
     public class AuthService : IAuthService
     {
         private readonly AppDbContext _context;
+        private readonly PasswordHasher<User> _passwordHasher;
+        private readonly ILogger<AuthService> _logger;
 
-        public AuthService(AppDbContext context)
+        public AuthService(AppDbContext context, ILogger<AuthService> logger)
         {
             _context = context;
+            _logger = logger;
+            _passwordHasher = new PasswordHasher<User>();
         }
 
-        public async Task<User> RegisterAsync(RegisterDto registerDto)
+        public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
-            // Check if email already exists
-            if (await _context.Users.AnyAsync(u => u.Email == registerDto.Email))
-                throw new Exception("Email already registered");
+            //  Validate input
+            if (string.IsNullOrWhiteSpace(request.Email) ||
+                string.IsNullOrWhiteSpace(request.Username) ||
+                string.IsNullOrWhiteSpace(request.Password))
+            {
+                throw new ArgumentException("All fields are required.");
+            }
 
-            // Hash password
-            string hashedPassword = HashPassword(registerDto.Password);
+            //  Check email format
+            if (!new System.ComponentModel.DataAnnotations.EmailAddressAttribute().IsValid(request.Email))
+                throw new ArgumentException("Invalid email format.");
 
+            //  Prevent duplicates
+            if (await _context.Users.AnyAsync(u => u.Email == request.Email))
+                throw new InvalidOperationException("Email already registered.");
+
+            //  Hash password securely
             var user = new User
             {
-                Username = registerDto.Username,
-                Email = registerDto.Email,
-                PasswordHash = hashedPassword,
-                Role = "User"
+                Username = request.Username,
+                Email = request.Email,
+                Role = "Member",
             };
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+            user.PasswordHash = _passwordHasher.HashPassword(user, request.Password);
 
-            return user;
-        }
+            //  Save to DB with exception handling
+            try
+            {
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
 
-        private string HashPassword(string password)
-        {
-            using var sha256 = SHA256.Create();
-            var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-            return Convert.ToBase64String(bytes);
+                _logger.LogInformation("New user registered: {Email}", request.Email);
+
+                return new RegisterResponse
+                {
+                    Message = "User registered successfully",
+                    Email = user.Email,
+                    Username = user.Username,
+                    Role = user.Role
+                };
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during user registration");
+                throw new Exception("Registration failed, please try again later.");
+            }
         }
     }
 }

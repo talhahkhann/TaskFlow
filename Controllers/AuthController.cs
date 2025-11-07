@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using TaskFlow.DTOs;
+using TaskFlow.DTOs.Auth;
 using TaskFlow.Services;
 
-namespace ProjectManagementAPI.Controllers
+namespace TaskFlow.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -16,20 +16,24 @@ namespace ProjectManagementAPI.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
             try
             {
-                var user = await _authService.RegisterAsync(registerDto);
-                return Ok(new
-                {
-                    message = "User registered successfully",
-                    user = new { user.Id, user.Username, user.Email }
-                });
+                var result = await _authService.RegisterAsync(request);
+                return Ok(result);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { error = ex.Message });
             }
             catch (Exception ex)
             {
-                return BadRequest(new { error = ex.Message });
+                return StatusCode(500, new { error = ex.Message });
             }
         }
     }

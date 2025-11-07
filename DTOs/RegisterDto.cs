@@ -1,16 +1,17 @@
-using System.ComponentModel.DataAnnotations;
-
-namespace TaskFlow.DTOs
+namespace TaskFlow.DTOs.Auth
 {
-    public class RegisterDto
+    public class RegisterRequest
     {
-        [Required]
-        public string Username { get; set; }
+        public string Username { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
 
-        [Required, EmailAddress]
-        public string Email { get; set; }
-
-        [Required, MinLength(6)]
-        public string Password { get; set; }
+    public class RegisterResponse
+    {
+        public string Message { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
+        public string Role { get; set; } = string.Empty;
     }
 }
