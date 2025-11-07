@@ -155,3 +155,4 @@
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.pdb
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.genruntimeconfig.cache
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/ref/TaskFlow.dll
+/home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.sourcelink.json
