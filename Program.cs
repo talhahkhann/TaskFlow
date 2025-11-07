@@ -14,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
     .EnableSensitiveDataLogging()
     .LogTo(Console.WriteLine, LogLevel.Error));
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 // Add Controllers
 builder.Services.AddControllers();
