@@ -9,6 +9,7 @@
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/TaskFlow.pdb
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/AutoMapper.dll
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/BCrypt.Net-Next.dll
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/FluentValidation.dll
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
 /home/haris/Desktop/TaskFlow/TaskFlow/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
@@ -139,6 +140,7 @@
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.csproj.CoreCompileInputs.cache
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.MvcApplicationPartsAssemblyInfo.cs
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.MvcApplicationPartsAssemblyInfo.cache
+/home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.sourcelink.json
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/scopedcss/bundle/TaskFlow.styles.css
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/staticwebassets.build.json
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/staticwebassets.development.json
@@ -155,4 +157,3 @@
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.pdb
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.genruntimeconfig.cache
 /home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/ref/TaskFlow.dll
-/home/haris/Desktop/TaskFlow/TaskFlow/obj/Debug/net9.0/TaskFlow.sourcelink.json

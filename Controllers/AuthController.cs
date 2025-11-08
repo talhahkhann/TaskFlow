@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using TaskFlow.DTOs.Auth;
+using TaskFlow.DTOs;
 using TaskFlow.Services;
 
 namespace TaskFlow.Controllers
@@ -15,26 +15,33 @@ namespace TaskFlow.Controllers
             _authService = authService;
         }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+        [HttpPost("signup")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequestDto request)
         {
             try
             {
-                var result = await _authService.RegisterAsync(request);
-                return Ok(result);
-            }
-            catch (ArgumentException ex)
-            {
-                return BadRequest(new { error = ex.Message });
-            }
-            catch (InvalidOperationException ex)
-            {
-                return Conflict(new { error = ex.Message });
+                var response = await _authService.RegisterAsync(request);
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { error = ex.Message });
+                return BadRequest(new { message = ex.Message });
             }
         }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto request)
+        {
+            try
+            {
+                var result = await _authService.LoginAsync(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
     }
+
 }

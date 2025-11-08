@@ -1,73 +1,76 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using TaskFlow.Data;
-using TaskFlow.DTOs.Auth;
+using TaskFlow.DTOs;
+using TaskFlow.Helpers;
 using TaskFlow.Models;
+using TaskFlow.Repositories;
 
 namespace TaskFlow.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly AppDbContext _context;
-        private readonly PasswordHasher<User> _passwordHasher;
-        private readonly ILogger<AuthService> _logger;
+        private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
+        private readonly JwtHelper _jwtHelper;
+        private readonly IPasswordHasher<User> _passwordHasher;
 
-        public AuthService(AppDbContext context, ILogger<AuthService> logger)
+        public AuthService(
+            IUserRepository userRepository, 
+            IMapper mapper, 
+            JwtHelper jwtHelper,
+            IPasswordHasher<User> passwordHasher)
         {
-            _context = context;
-            _logger = logger;
-            _passwordHasher = new PasswordHasher<User>();
+            _userRepository = userRepository;
+            _mapper = mapper;
+            _jwtHelper = jwtHelper;
+            _passwordHasher = passwordHasher;
         }
 
-        public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
+        public async Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request)
         {
-            //  Validate input
-            if (string.IsNullOrWhiteSpace(request.Email) ||
-                string.IsNullOrWhiteSpace(request.Username) ||
-                string.IsNullOrWhiteSpace(request.Password))
-            {
-                throw new ArgumentException("All fields are required.");
-            }
+            // Check for existing user
+            var existingUser = await _userRepository.GetUserByEmailAsync(request.Email);
+            if (existingUser != null)
+                throw new Exception("User with this email already exists.");
 
-            //  Check email format
-            if (!new System.ComponentModel.DataAnnotations.EmailAddressAttribute().IsValid(request.Email))
-                throw new ArgumentException("Invalid email format.");
+            // Map DTO to User entity
+            var newUser = _mapper.Map<User>(request);
 
-            //  Prevent duplicates
-            if (await _context.Users.AnyAsync(u => u.Email == request.Email))
-                throw new InvalidOperationException("Email already registered.");
+            // Hash password using IPasswordHasher
+            newUser.PasswordHash = _passwordHasher.HashPassword(newUser, request.Password);
 
-            //  Hash password securely
-            var user = new User
-            {
-                Username = request.Username,
-                Email = request.Email,
-                Role = "Member",
-            };
+            // Save user
+            var savedUser = await _userRepository.AddUserAsync(newUser);
 
-            user.PasswordHash = _passwordHasher.HashPassword(user, request.Password);
+            // Generate JWT token
+            var token = _jwtHelper.GenerateToken(savedUser);
 
-            //  Save to DB with exception handling
-            try
-            {
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
+            // Prepare response
+            var response = _mapper.Map<RegisterResponseDto>(savedUser);
+            response.Token = token;
+            response.Message = "User registered successfully.";
+            return response;
+        }
 
-                _logger.LogInformation("New user registered: {Email}", request.Email);
+        public async Task<LoginResponseDto> LoginAsync(LoginRequestDto request)
+        {
+            var user = await _userRepository.GetUserByEmailAsync(request.Email);
+            if (user == null)
+                throw new Exception("Invalid email or password.");
 
-                return new RegisterResponse
-                {
-                    Message = "User registered successfully",
-                    Email = user.Email,
-                    Username = user.Username,
-                    Role = user.Role
-                };
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error during user registration");
-                throw new Exception("Registration failed, please try again later.");
-            }
+            // Verify password
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password);
+            if (result != PasswordVerificationResult.Success)
+                throw new Exception("Invalid email or password.");
+
+            // Generate JWT token
+            var token = _jwtHelper.GenerateToken(user);
+
+            // Prepare response
+            var response = _mapper.Map<LoginResponseDto>(user);
+            response.Token = token;
+            response.Message = "Login successful.";
+            return response;
         }
     }
 }

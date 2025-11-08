@@ -1,12 +1,19 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Identity;
 using Serilog;
+using System.Text;
 using TaskFlow.Data;
+using TaskFlow.Helpers;
+using TaskFlow.Repositories;
 using TaskFlow.Services;
+using TaskFlow.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Serilog
+// Serilog Logging
 builder.Host.UseSerilog((context, config) =>
     config.ReadFrom.Configuration(context.Configuration));
 builder.Configuration.AddJsonFile("serilog.json", optional: true);
@@ -14,11 +21,8 @@ builder.Configuration.AddJsonFile("serilog.json", optional: true);
 // Database
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
-    .EnableSensitiveDataLogging()
-    .LogTo(Console.WriteLine, LogLevel.Error));
-
-// Listen on port 8080 (Render expects this)
-builder.WebHost.UseUrls("http://0.0.0.0:8080");
+           .EnableSensitiveDataLogging()
+           .LogTo(Console.WriteLine, LogLevel.Error));
 
 // Controllers
 builder.Services.AddControllers();
@@ -27,18 +31,48 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Dependency Injection
+// DI
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<JwtHelper>();
+builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(Program));
+
+// JWT Authentication
+var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var key = Encoding.UTF8.GetBytes(jwtSettings["Secret"]);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
+
+// Build App
 var app = builder.Build();
 
-// Allow Render proxy headers (important)
+// Forwarded headers
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
 });
 
-// Always enable Swagger (not just in Development)
+// Swagger
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -46,10 +80,10 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger";
 });
 
+// Middlewares
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();
