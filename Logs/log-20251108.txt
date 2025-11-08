@@ -608,3 +608,9 @@ LIMIT 1
 2025-11-08 18:27:43.795 +05:00 [INF] Executed action TaskFlow.Controllers.AuthController.Login (TaskFlow) in 585.9009ms
 2025-11-08 18:27:43.795 +05:00 [INF] Executed endpoint 'TaskFlow.Controllers.AuthController.Login (TaskFlow)'
 2025-11-08 18:27:43.796 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/login - 200 null application/json; charset=utf-8 591.2878ms
+2025-11-08 18:28:06.089 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-08 18:28:06.259 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 170.0729ms
+2025-11-08 18:28:06.266 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-08 18:28:06.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 13440 application/javascript; charset=utf-8 2.7933ms
+2025-11-08 18:28:06.615 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-08 18:28:06.641 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.5685ms
