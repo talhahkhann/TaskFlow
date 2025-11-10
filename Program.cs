@@ -62,9 +62,21 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowVueApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173") // Vue dev server URL
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 // Build App
 var app = builder.Build();
+// Use CORS before MapControllers()
+app.UseCors("AllowVueApp");
 
 // Forwarded headers
 app.UseForwardedHeaders(new ForwardedHeadersOptions

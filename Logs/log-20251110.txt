@@ -1,0 +1,559 @@
+2025-11-10 20:47:26.077 +05:00 [INF] User profile is available. Using '/home/fahad/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-10 20:47:26.160 +05:00 [INF] Creating key {6b67441b-42a5-4d69-9d63-92b4790ac4cb} with creation date 2025-11-10 15:47:26Z, activation date 2025-11-10 15:47:26Z, and expiration date 2026-02-08 15:47:26Z.
+2025-11-10 20:47:26.191 +05:00 [WRN] No XML encryptor configured. Key {6b67441b-42a5-4d69-9d63-92b4790ac4cb} may be persisted to storage in unencrypted form.
+2025-11-10 20:47:26.198 +05:00 [INF] Writing data to file '/home/fahad/.aspnet/DataProtection-Keys/key-6b67441b-42a5-4d69-9d63-92b4790ac4cb.xml'.
+2025-11-10 20:47:26.317 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-10 20:47:26.319 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-10 20:47:26.324 +05:00 [INF] Hosting environment: Development
+2025-11-10 20:47:26.325 +05:00 [INF] Content root path: /home/fahad/Desktop/TaskFlow
+2025-11-10 20:47:30.812 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-10 20:47:30.844 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-10 20:47:30.861 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 50.7709ms
+2025-11-10 20:47:30.888 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-10 20:47:45.176 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-10 20:47:45.181 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 5.2194ms
+2025-11-10 20:47:45.181 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-10 20:48:23.636 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-10 20:48:23.652 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 16.1755ms
+2025-11-10 20:48:23.652 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-10 20:48:29.526 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger - null null
+2025-11-10 20:48:29.532 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger - 301 0 null 6.0491ms
+2025-11-10 20:48:29.535 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:29.625 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 90.0315ms
+2025-11-10 20:48:29.652 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - null null
+2025-11-10 20:48:29.657 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.css - null null
+2025-11-10 20:48:29.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.css - 200 152 text/css 6.0866ms
+2025-11-10 20:48:29.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui.css - 200 23647 text/css 10.9971ms
+2025-11-10 20:48:29.665 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-10 20:48:29.665 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.js - null null
+2025-11-10 20:48:29.668 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.js - 200 null application/javascript;charset=utf-8 3.0506ms
+2025-11-10 20:48:29.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:29.669 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - null null
+2025-11-10 20:48:29.675 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 6.4367ms
+2025-11-10 20:48:29.704 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 39.4035ms
+2025-11-10 20:48:29.707 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 38.2221ms
+2025-11-10 20:48:30.044 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:30.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - null null
+2025-11-10 20:48:30.074 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/favicon-32x32.png - 200 628 image/png 2.0385ms
+2025-11-10 20:48:30.145 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.3711ms
+2025-11-10 20:48:31.926 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:31.929 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.3231ms
+2025-11-10 20:48:31.947 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:31.958 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 11.5928ms
+2025-11-10 20:48:32.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:32.077 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.0086ms
+2025-11-10 20:48:34.019 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:34.020 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.748ms
+2025-11-10 20:48:34.035 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:34.036 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.7435ms
+2025-11-10 20:48:34.116 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:34.132 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5867ms
+2025-11-10 20:48:36.195 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:36.196 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.8763ms
+2025-11-10 20:48:36.227 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:36.227 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3209ms
+2025-11-10 20:48:36.307 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:36.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.9631ms
+2025-11-10 20:48:38.399 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:38.400 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7537ms
+2025-11-10 20:48:38.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:38.442 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3713ms
+2025-11-10 20:48:38.553 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:38.556 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.3574ms
+2025-11-10 20:48:41.049 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:41.051 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6342ms
+2025-11-10 20:48:41.078 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:41.078 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.4199ms
+2025-11-10 20:48:41.210 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:41.213 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.1896ms
+2025-11-10 20:48:43.600 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:43.601 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.9384ms
+2025-11-10 20:48:43.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:43.634 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3218ms
+2025-11-10 20:48:43.716 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:43.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.5935ms
+2025-11-10 20:48:45.739 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:45.739 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5286ms
+2025-11-10 20:48:45.762 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:45.762 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.231ms
+2025-11-10 20:48:45.827 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:45.828 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4305ms
+2025-11-10 20:48:48.005 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:48.006 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7437ms
+2025-11-10 20:48:48.029 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:48.029 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.286ms
+2025-11-10 20:48:48.103 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:48.104 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2929ms
+2025-11-10 20:48:50.253 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:50.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6357ms
+2025-11-10 20:48:50.275 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:50.276 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.4416ms
+2025-11-10 20:48:50.340 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:50.345 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.6439ms
+2025-11-10 20:48:52.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:52.461 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.8389ms
+2025-11-10 20:48:52.490 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:52.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2754ms
+2025-11-10 20:48:52.582 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:52.583 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.6744ms
+2025-11-10 20:48:54.580 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:54.580 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.611ms
+2025-11-10 20:48:54.609 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:54.609 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.263ms
+2025-11-10 20:48:54.667 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:54.668 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1883ms
+2025-11-10 20:48:56.786 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:56.787 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5154ms
+2025-11-10 20:48:56.802 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:56.802 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2682ms
+2025-11-10 20:48:56.862 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:56.864 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2348ms
+2025-11-10 20:48:58.884 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:48:58.887 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.3933ms
+2025-11-10 20:48:58.906 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:48:58.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2627ms
+2025-11-10 20:48:58.976 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:48:58.979 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.1935ms
+2025-11-10 20:49:00.939 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:00.940 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.2689ms
+2025-11-10 20:49:00.959 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:00.961 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.9473ms
+2025-11-10 20:49:01.026 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:01.028 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.552ms
+2025-11-10 20:49:03.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:03.014 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.5826ms
+2025-11-10 20:49:03.049 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:03.049 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2548ms
+2025-11-10 20:49:03.124 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:03.127 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.4858ms
+2025-11-10 20:49:04.875 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:04.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.6314ms
+2025-11-10 20:49:04.891 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:04.892 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.0853ms
+2025-11-10 20:49:04.955 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:04.964 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5354ms
+2025-11-10 20:49:06.816 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:06.817 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7676ms
+2025-11-10 20:49:06.831 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:06.831 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.5179ms
+2025-11-10 20:49:06.898 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:06.899 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0228ms
+2025-11-10 20:49:08.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:08.888 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7026ms
+2025-11-10 20:49:08.900 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:08.900 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2091ms
+2025-11-10 20:49:09.090 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:09.094 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3273ms
+2025-11-10 20:49:11.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:11.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5109ms
+2025-11-10 20:49:11.074 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:11.075 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.2347ms
+2025-11-10 20:49:11.135 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:11.139 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.2747ms
+2025-11-10 20:49:13.035 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:13.037 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.2187ms
+2025-11-10 20:49:13.062 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:13.067 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 4.9279ms
+2025-11-10 20:49:13.128 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:13.129 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1059ms
+2025-11-10 20:49:15.078 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:15.079 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5764ms
+2025-11-10 20:49:15.092 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:15.092 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2217ms
+2025-11-10 20:49:15.149 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:15.150 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.8091ms
+2025-11-10 20:49:16.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:17.000 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.8983ms
+2025-11-10 20:49:17.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:17.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.7294ms
+2025-11-10 20:49:17.078 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:17.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.6734ms
+2025-11-10 20:49:18.996 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:18.997 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5881ms
+2025-11-10 20:49:19.008 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:19.008 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3242ms
+2025-11-10 20:49:19.097 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:19.099 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.459ms
+2025-11-10 20:49:21.048 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:21.049 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.9066ms
+2025-11-10 20:49:21.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:21.061 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2283ms
+2025-11-10 20:49:21.114 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:21.116 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0687ms
+2025-11-10 20:49:23.196 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:23.198 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.1263ms
+2025-11-10 20:49:23.213 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:23.214 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.1233ms
+2025-11-10 20:49:23.290 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:23.291 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9249ms
+2025-11-10 20:49:25.196 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:49:25.196 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4906ms
+2025-11-10 20:49:25.210 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:49:25.211 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2691ms
+2025-11-10 20:49:25.289 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:49:25.290 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1122ms
+2025-11-10 20:49:52.129 +05:00 [INF] Application is shutting down...
+2025-11-10 20:50:03.733 +05:00 [INF] User profile is available. Using '/home/fahad/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-10 20:50:03.834 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-10 20:50:03.835 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-10 20:50:03.836 +05:00 [INF] Hosting environment: Development
+2025-11-10 20:50:03.836 +05:00 [INF] Content root path: /home/fahad/Desktop/TaskFlow
+2025-11-10 20:50:06.729 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-10 20:50:06.760 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-10 20:50:06.776 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 48.6159ms
+2025-11-10 20:50:06.791 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-10 20:50:10.834 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:10.843 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 11.6359ms
+2025-11-10 20:50:10.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:11.060 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.3485ms
+2025-11-10 20:50:13.146 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:13.225 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 78.5129ms
+2025-11-10 20:50:13.242 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:13.244 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 2.3309ms
+2025-11-10 20:50:13.398 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:13.409 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6329ms
+2025-11-10 20:50:15.324 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:15.325 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.0019ms
+2025-11-10 20:50:15.339 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:15.351 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 12.0528ms
+2025-11-10 20:50:15.412 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:15.414 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.7201ms
+2025-11-10 20:50:17.301 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:17.302 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.8103ms
+2025-11-10 20:50:17.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:17.320 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.331ms
+2025-11-10 20:50:17.386 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:17.388 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.3958ms
+2025-11-10 20:50:19.414 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:19.415 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.8571ms
+2025-11-10 20:50:19.436 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:19.436 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3498ms
+2025-11-10 20:50:19.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:19.497 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4175ms
+2025-11-10 20:50:21.485 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:21.486 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.1376ms
+2025-11-10 20:50:21.505 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:21.508 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 2.0286ms
+2025-11-10 20:50:21.585 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:21.591 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0699ms
+2025-11-10 20:50:23.564 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:23.576 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 11.9273ms
+2025-11-10 20:50:23.589 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:23.589 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3037ms
+2025-11-10 20:50:23.663 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:23.664 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.3022ms
+2025-11-10 20:50:25.690 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:25.691 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7509ms
+2025-11-10 20:50:25.708 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:25.709 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.3596ms
+2025-11-10 20:50:25.789 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:25.790 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.7461ms
+2025-11-10 20:50:27.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:27.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7229ms
+2025-11-10 20:50:27.802 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:27.804 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.7746ms
+2025-11-10 20:50:27.890 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:27.903 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.872ms
+2025-11-10 20:50:29.934 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:29.935 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6722ms
+2025-11-10 20:50:29.971 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:29.972 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2906ms
+2025-11-10 20:50:30.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:30.062 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9807ms
+2025-11-10 20:50:32.328 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:32.328 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4757ms
+2025-11-10 20:50:32.358 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:32.358 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2964ms
+2025-11-10 20:50:32.447 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:32.449 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.8365ms
+2025-11-10 20:50:34.529 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:34.530 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7614ms
+2025-11-10 20:50:34.550 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:34.551 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2534ms
+2025-11-10 20:50:34.656 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:34.658 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2545ms
+2025-11-10 20:50:36.886 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:36.886 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7573ms
+2025-11-10 20:50:36.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:36.904 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2358ms
+2025-11-10 20:50:36.984 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:36.986 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4389ms
+2025-11-10 20:50:38.962 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:38.964 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.2616ms
+2025-11-10 20:50:38.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:38.981 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.9508ms
+2025-11-10 20:50:39.057 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:39.059 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1435ms
+2025-11-10 20:50:41.128 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:41.129 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6631ms
+2025-11-10 20:50:41.151 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:41.152 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2634ms
+2025-11-10 20:50:41.219 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:41.220 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2651ms
+2025-11-10 20:50:43.477 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:43.480 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.6198ms
+2025-11-10 20:50:43.502 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:43.502 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.269ms
+2025-11-10 20:50:43.596 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:43.598 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.3289ms
+2025-11-10 20:50:45.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:45.640 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.0616ms
+2025-11-10 20:50:45.660 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:45.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2449ms
+2025-11-10 20:50:45.719 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:45.723 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.9919ms
+2025-11-10 20:50:47.704 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:47.704 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6257ms
+2025-11-10 20:50:47.722 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:47.727 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 4.4383ms
+2025-11-10 20:50:47.798 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:47.799 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1933ms
+2025-11-10 20:50:50.047 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:50.051 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 4.0835ms
+2025-11-10 20:50:50.080 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:50.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2607ms
+2025-11-10 20:50:50.169 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:50.170 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9653ms
+2025-11-10 20:50:52.379 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:52.379 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5385ms
+2025-11-10 20:50:52.398 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:52.398 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2712ms
+2025-11-10 20:50:52.480 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:52.482 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2652ms
+2025-11-10 20:50:54.511 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:54.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7522ms
+2025-11-10 20:50:54.535 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:54.535 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2413ms
+2025-11-10 20:50:54.618 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:54.619 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0635ms
+2025-11-10 20:50:56.645 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:56.647 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.5568ms
+2025-11-10 20:50:56.657 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:56.657 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2078ms
+2025-11-10 20:50:56.733 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:56.734 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0283ms
+2025-11-10 20:50:58.809 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:50:58.810 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5419ms
+2025-11-10 20:50:58.824 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:50:58.824 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.5319ms
+2025-11-10 20:50:58.913 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:50:58.914 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1037ms
+2025-11-10 20:51:01.777 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:01.778 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.9408ms
+2025-11-10 20:51:01.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:01.791 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2007ms
+2025-11-10 20:51:01.881 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:01.885 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.3233ms
+2025-11-10 20:51:04.032 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:04.032 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7102ms
+2025-11-10 20:51:04.045 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:04.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2539ms
+2025-11-10 20:51:04.128 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:04.129 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9572ms
+2025-11-10 20:51:06.272 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:06.273 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.9037ms
+2025-11-10 20:51:06.283 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:06.284 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 1.6519ms
+2025-11-10 20:51:06.370 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:06.374 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.2098ms
+2025-11-10 20:51:08.518 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:08.518 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6933ms
+2025-11-10 20:51:08.532 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:08.532 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2143ms
+2025-11-10 20:51:08.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:08.620 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.3277ms
+2025-11-10 20:51:10.596 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:10.597 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.7462ms
+2025-11-10 20:51:10.616 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:10.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 2.253ms
+2025-11-10 20:51:10.747 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:10.748 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.109ms
+2025-11-10 20:51:12.902 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:12.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 3.8958ms
+2025-11-10 20:51:12.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:12.926 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2526ms
+2025-11-10 20:51:13.041 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:13.042 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2021ms
+2025-11-10 20:51:15.299 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:15.299 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4969ms
+2025-11-10 20:51:15.311 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:15.311 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2525ms
+2025-11-10 20:51:15.394 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:15.397 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.7221ms
+2025-11-10 20:51:17.627 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:17.628 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 1.0223ms
+2025-11-10 20:51:17.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:17.658 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2911ms
+2025-11-10 20:51:17.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:17.848 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.6064ms
+2025-11-10 20:51:20.177 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:20.179 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 2.4026ms
+2025-11-10 20:51:20.206 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:20.207 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2063ms
+2025-11-10 20:51:20.314 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:20.316 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.0732ms
+2025-11-10 20:51:22.268 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:22.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5109ms
+2025-11-10 20:51:22.282 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:22.282 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3241ms
+2025-11-10 20:51:22.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:22.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1594ms
+2025-11-10 20:51:24.912 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:24.913 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.415ms
+2025-11-10 20:51:24.930 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:24.931 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.7712ms
+2025-11-10 20:51:25.023 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:25.024 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1717ms
+2025-11-10 20:51:27.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:27.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6627ms
+2025-11-10 20:51:27.558 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:27.559 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.9841ms
+2025-11-10 20:51:27.651 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:27.652 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9041ms
+2025-11-10 20:51:28.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:28.609 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4681ms
+2025-11-10 20:51:28.642 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:28.642 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3046ms
+2025-11-10 20:51:28.728 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:28.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.8177ms
+2025-11-10 20:51:30.374 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:30.375 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.3579ms
+2025-11-10 20:51:30.394 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:30.395 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.6542ms
+2025-11-10 20:51:30.471 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:30.473 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.9085ms
+2025-11-10 20:51:32.981 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:32.982 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4782ms
+2025-11-10 20:51:32.996 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:32.997 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.3507ms
+2025-11-10 20:51:33.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:33.088 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1987ms
+2025-11-10 20:51:35.481 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:35.481 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5742ms
+2025-11-10 20:51:35.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:35.495 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2164ms
+2025-11-10 20:51:35.593 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:35.596 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.831ms
+2025-11-10 20:51:37.737 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:37.737 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.3741ms
+2025-11-10 20:51:37.754 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:37.757 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 3.1443ms
+2025-11-10 20:51:37.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:37.852 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.7512ms
+2025-11-10 20:51:40.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:40.087 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4292ms
+2025-11-10 20:51:40.099 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:40.100 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2261ms
+2025-11-10 20:51:40.193 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:40.194 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.8803ms
+2025-11-10 20:51:42.218 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:42.218 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4873ms
+2025-11-10 20:51:42.229 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:42.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2059ms
+2025-11-10 20:51:42.312 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:42.317 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.175ms
+2025-11-10 20:51:44.394 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:44.395 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.4072ms
+2025-11-10 20:51:44.406 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:44.406 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2033ms
+2025-11-10 20:51:44.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:44.496 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.9441ms
+2025-11-10 20:51:46.590 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:46.590 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.6661ms
+2025-11-10 20:51:46.605 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:46.606 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.7071ms
+2025-11-10 20:51:46.702 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:46.703 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.2718ms
+2025-11-10 20:51:48.993 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:48.994 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5357ms
+2025-11-10 20:51:49.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:49.011 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.2403ms
+2025-11-10 20:51:49.099 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:49.107 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.983ms
+2025-11-10 20:51:51.647 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/index.html - null null
+2025-11-10 20:51:51.647 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/index.html - 200 null text/html;charset=utf-8 0.5609ms
+2025-11-10 20:51:51.670 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:51:51.671 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 200 16091 application/javascript; charset=utf-8 0.1969ms
+2025-11-10 20:51:51.769 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:51:51.770 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.0359ms
+2025-11-10 20:51:53.863 +05:00 [INF] Application is shutting down...
+2025-11-10 20:52:04.696 +05:00 [INF] User profile is available. Using '/home/fahad/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-10 20:52:04.814 +05:00 [INF] Now listening on: http://localhost:5136
+2025-11-10 20:52:04.817 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-10 20:52:04.818 +05:00 [INF] Hosting environment: Development
+2025-11-10 20:52:04.818 +05:00 [INF] Content root path: /home/fahad/Desktop/TaskFlow
+2025-11-10 20:52:09.129 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/ - null null
+2025-11-10 20:52:09.161 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-10 20:52:09.185 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/ - 404 0 null 55.6147ms
+2025-11-10 20:52:09.204 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/, Response status code: 404
+2025-11-10 20:52:17.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-10 20:52:17.676 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js - 404 0 null 6.7695ms
+2025-11-10 20:52:17.678 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5136/_framework/aspnetcore-browser-refresh.js, Response status code: 404
+2025-11-10 20:52:17.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - null null
+2025-11-10 20:52:17.852 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.0536ms
+2025-11-10 20:52:27.052 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5136/api/Auth/signup - application/json 71
+2025-11-10 20:52:27.057 +05:00 [INF] Executing endpoint 'TaskFlow.Controllers.AuthController.Register (TaskFlow)'
+2025-11-10 20:52:27.077 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TaskFlow.DTOs.RegisterRequestDto) on controller TaskFlow.Controllers.AuthController (TaskFlow).
+2025-11-10 20:52:27.554 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-10 20:52:28.402 +05:00 [ERR] An error occurred using the connection to database 'taskflow_db_i1cf' on server 'tcp://dpg-d470i4bipnbc73f7ntpg-a.oregon-postgres.render.com:5432'.
+2025-11-10 20:52:28.429 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'TaskFlow.Data.AppDbContext'.
+System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__33_0(Object s, NameResolutionActivity activity)
+   at System.Net.Dns.<>c__DisplayClass39_0`1.<RunAsync>b__0(Task <p0>, Object <p1>)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync[TResult](Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.<>c.<GetHostEntryOrAddressesCoreAsync>b__33_0(Object s, NameResolutionActivity activity)
+   at System.Net.Dns.<>c__DisplayClass39_0`1.<RunAsync>b__0(Task <p0>, Object <p1>)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync[TResult](Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-11-10 20:52:28.441 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-10 20:52:28.461 +05:00 [INF] Executed action TaskFlow.Controllers.AuthController.Register (TaskFlow) in 1381.9999ms
+2025-11-10 20:52:28.462 +05:00 [INF] Executed endpoint 'TaskFlow.Controllers.AuthController.Register (TaskFlow)'
+2025-11-10 20:52:28.471 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5136/api/Auth/signup - 400 null application/json; charset=utf-8 1419.0739ms
+2025-11-10 20:53:43.692 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5136/api/Auth/signup - null null
+2025-11-10 20:53:43.695 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-10 20:53:43.695 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-10 20:53:43.696 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5136/api/Auth/signup - 405 0 null 3.3838ms
